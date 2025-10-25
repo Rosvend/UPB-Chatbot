@@ -7,8 +7,7 @@ area: Ingeniería
 mode: Presencial
 program_duration: 9 semestres
 program_code: 101533
-accreditation: Res. MEN en Alta Calidad 17731 de 15/11/2018 - 6 años Res. MEN en Registro Calificado 16738 de 20/12/2012 - 7 años
-Acreditación de Calidad Académica MERCOSUR de Carreras Universitarias Sistema ARCU–SUR–Red de Agencias Nacionales de Acreditación (RANA)
+accreditation: Acreditación de Calidad Académica MERCOSUR de Carreras Universitarias Sistema ARCU–SUR
 registration_validity: 7 años
 domain_tags: [software, computer science, hardware, sistemas, universidad, colombia]
 language: Español
