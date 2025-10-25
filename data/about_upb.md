@@ -1,4 +1,4 @@
-Asesoría vocacional
+# Asesoría vocacional
 
 En tus manos está la decisión de escoger la profesión que vas a elegir para la vida y nosotros en la UPB te ayudaremos a escoger la carrera de tus sueños.
 
@@ -71,7 +71,7 @@ mercadeo.pal@upb.edu.co
 
 
  
-Doble programa
+# Doble programa
 
 Disponible en: Medellín, Bucaramanga, Montería y Palmira
 
@@ -99,20 +99,8 @@ Requisitos:
     En cada programa, quien te puede ayudar a revisar la opción de doble programa es el Director de Facultad o el Coordinador del Programa.
 
 La aceptación a un segundo programa conlleva el correspondiente estudio de equivalencias. En todos los casos se reconocerán las asignaturas comunes a las 2 carreras y aquellas que sean equivalentes en contenidos y créditos. 
-Conoce el caso de Daniel, quién logró graduarse de 3 carreras profesionales en solo 6 años
- 
-Daniel Amaya con toga y birrete sostiene los tres diplomas. Daniel hizo su inscripción a la Universidad a 3 programas.
 
-3 diplomas, 3 pregrados y 23 años de vida
-Daniel Amaya llegó a Medellín proveniente del Eje Cafetero. Quería ser arquitecto, pero sin pensarlo se graduó de 3 carreras relacionadas con las Ciencias Económicas, después de 6 años de estudio.
-Continúa leyendo
-
-¿Te interesa realizar un doble programa?
-Solicita información
-
-Volver al inicio de la página
-
-Pasantía Colegio - Universidad
+# Pasantía Colegio - Universidad
 
 Disponible en: Medellín, Montería, Bucaramanga y Palmira.
 
@@ -163,3 +151,460 @@ Para inscribirte, sigue estos pasos:
     Envía la carta de aceptación escaneada a los correos electrónicos según la ciudad que aplicas, con base en ella, recibirás la confirmación de tu inscripción y los pasos a seguir.
         Medellín: natalia.ocampo@upb.edu.co
         Montería: pregrado.monteria@upb.edu.co
+
+# Ciclos
+
+## Ciclo Básico de Formación Humanista
+Formación integral en valores humanos y cristianos, fomentando la 
+comprensión del sentido de la vida, las relaciones interpersonales y la responsabilidad social. A través de ocho 
+cursos, se promueve el desarrollo de habilidades de lectura, escritura y comprensión social, facilitando un 
+enfoque interdisciplinario para integrar diversos intereses profesionales.
+
+## Ciclo Básico Disciplinar (CBD) 
+Formación fundamental en ciencias naturales y matemáticas para los estudiantes, para 
+comprender los campos de esta disciplina y establecer las bases científicas necesarias para la profesión. Se enfoca 
+en consolidar el conocimiento disciplinario y científico básico de la ingeniería, permitiendo la construcción de un 
+sólido fundamento epistemológico conforme a los estándares académicos y científicos tanto nacionales como 
+internacionales.
+
+## Ciclo Profesional (CP)
+Se adapta a las necesidades específicas de cada programa de pregrado y pretende preparar al 
+estudiante para su desempeño profesional. 
+
+## Ciclo de Integración (CI)
+Ciclo común para los pregrados de la Universidad, abarca dos aspectos importantes: uno 
+dirigido al contexto específico de cada carrera y otro orientado a la formación general del individuo. Su propósito 
+principal es facilitar la transición del estudiante hacia la vida profesional y laboral, permitiéndole interactuar con 
+graduados en diversos campos especializados. Además, busca ampliar la formación del estudiante en entornos 
+académicos, culturales y laborales más amplios que los de su disciplina principal. El CI incluye cursos optativos y 
+electivos. Los optativos ofrecen un trabajo académico especializado y profundo, mientras que los electivos 
+complementan la formación del estudiante con una perspectiva amplia sobre el ser humano y sus actividades.
+
+## ¿Qué te ofrece un pregrado en la UPB?
+
+- Prácticas y Pasantías: Contamos con convenios para que realices tu práctica empresarial en organizaciones públicas o privadas.
+- Bienestar Universitario: Te acompañamos en tu crecimiento personal y académico. Promovemos el arte, la cultura y los hábitos de vida saludable. Te brindamos múltiples opciones para la práctica del deporte y la actividad física.
+- Proyección Social: Te acercamos al ejercicio de la caridad social para cambiar en la forma de responder a las necesidades de la integridad del ser humano.
+- Semilleros: Te ofrecemos oportunidades para que adquieras capacidades investigativas. Fomentamos la excelencia académica y la cultura del aprendizaje.
+- Intercambio: Contamos con más de 160 convenios internacionales, en 35 países, que te permiten adelantar intercambios con otras universidades en Colombia y en el exterior.
+- Publicaciones: Ponemos a tu disposición obras académicas y literarias con sello de nuestra Editorial UPB. 
+
+---
+
+*   Ciudad: 
+*   [Quiero donar](https://www.upb.edu.co/es/filantropia "¡Quiero donar!")
+*   [SIGAA](https://sigaa.upb.edu.co/ssomanager/c/SSB "Acceso a SIGAA")
+
+*   [PQRS-F](https://www.upb.edu.co/es/seccion-pqrs-f-upb "Preguntas, peticiones, quejas, reclamos, sugerencias y felicitación")[UPB Virtual](https://www.upb.edu.co/es/upbvirtual "UPB Virtual")[Clínica](https://www.clinicauniversitariabolivariana.org.co/clinica/home "Clínica")[Transparencia](https://www.upb.edu.co/es/transparencia-acceso-informacion "Transparencia")[Soy UPB](https://soyupb.upb.edu.co/ "Soy UPB")
+*    
+*    
+*    
+*   [](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin "Aumentar tamaño texto")[](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin "Disminuir tamaño texto") 
+*    
+
+[![Image 1: Logo UPB](https://www.upb.edu.co/wcs_statics/pp/img/Logo-UPB-2022.svg)](https://www.upb.edu.co/es/home "Ir a la página principal de la UPB")
+
+*   [Inicio](https://www.upb.edu.co/es/home)
+*   Oferta Académica
+*   [La Universidad](https://www.upb.edu.co/es/la-universidad)
+*   [Investigación](https://www.upb.edu.co/es/investigacion)
+*   [Intercambio](https://www.upb.edu.co/es/intercambio)
+*   [Vida Universitaria](https://www.upb.edu.co/es/vida-universitaria)
+*   [Proyección Social](https://www.upb.edu.co/es/proyeccion-social-y-extension)
+
+*    ¿Qué estudiar? 
+
+*   [Programas profesionales](https://www.upb.edu.co/es/pregrados)
+*   [Posgrados](https://www.upb.edu.co/es/postgrados)
+*   [Programas virtuales](https://www.upb.edu.co/es/upbvirtual)
+*   [Centro de Lenguas](https://www.upb.edu.co/es/centro-lenguas)
+*   [Programas de Formación Continua](https://www.upb.edu.co/es/formacion-continua)
+*   [Programas Técnicos](https://www.upb.edu.co/es/programas-tecnicos)
+*   [Colegio](https://www.upb.edu.co/es/colegio "Colegio")
+
+*   [¿Cómo estudiar?](https://www.upb.edu.co/es/inscripciones-abiertas)
+
+*   [Cómo empezar una carrera profesional](https://www.upb.edu.co/es/carrera-profesional)
+*   [Por qué estudiar en la UPB](https://www.upb.edu.co/es/estudiar-en-universidad-upb)
+*   [UPB Contigo](https://www.upb.edu.co/es/apoyo-upb-contigo)
+*   [UPB Academy](https://www.upb.edu.co/es/upb-academy)
+*   [Generación E](https://www.upb.edu.co/es/programa-generacion-e "Generación E")
+*   [Cómo empezar un postgrado](https://www.upb.edu.co/es/admisiones/postgrado-asesoria-informacion "Cómo empezar un postgrado")
+
+[Generación E](https://www.upb.edu.co/es/programa-generacion-e "Continuar leyendo sobre Generación E")
+Haz parte de la Comunidad UPB en Medellín, Bucaramanga, Montería y Palmira.
+
+Diligencia el formulario de admisión
+
+[Pregrados](https://formularioadmision.upb.edu.co/#/usuario/iniciar-sesion "Pregrados")
+
+[Posgrados](https://formularioadmision.upb.edu.co/#/usuario/iniciar-sesion "Posgrados")
+
+[UPBTEC](https://sigaa.upb.edu.co/BANPDN/bwskalog.P_DispLoginNon "UPBTEC")
+
+*    Sobre la Universidad 
+
+*   [Digitalmente juntos](https://www.upb.edu.co/es/digitalmente-juntos)
+*   [Autoevaluación Institucional Multicampus](https://www.upb.edu.co/es/autoevaluacion-institucional-multicampus)
+*   [Sostenibilidad](https://www.upb.edu.co/es/sostenibilidad)
+*   [Sistema de Bibliotecas](https://www.upb.edu.co/es/sistema-de-bibliotecas/servicios)
+*   [Identidad, Principios e Historia](https://www.upb.edu.co/es/identidad-principios-historia)
+*   [Directivos de la Universidad](https://www.upb.edu.co/es/directivos)
+*   [Centros, Institutos y Fundaciones](https://www.upb.edu.co/es/centros-institutos-fundaciones)
+*   [Elecciones de representantes](https://www.upb.edu.co/es/elecciones-representantes)
+*   [Normatividad y reglamentos](https://www.upb.edu.co/es/normatividad-reglamentos)
+*   [Nuestra naturaleza y enfoque](https://www.upb.edu.co/es/naturaleza-y-enfoque)
+*   [Información para la Dian](https://www.upb.edu.co/es/informacion-dian)
+*   [Proceso de grados](https://www.upb.edu.co/es/estudiantes/proceso-grados)
+
+*    Visibilidad 
+
+*   [Ranking](https://www.upb.edu.co/es/ranking-de-universidades)
+*   [Reconocimientos](https://www.upb.edu.co/es/reconocimientos)
+*   [UPB en los medios](https://www.upb.edu.co/es/upb-en-los-medios)
+*   [UPB en Colombia y mundo](https://www.upb.edu.co/es/upb-en-colombia-y-mundo)
+*   [Convocatorias laborales](https://www.upb.edu.co/es/convocatorias-laborales)
+
+*   [Nuestro Campus](https://www.upb.edu.co/es/la-universidad/campus-upb)
+
+*   [Servicios](https://www.upb.edu.co/es/universidad/nuestro-campus/servicios)
+*   [Sobre las ciudades](https://www.upb.edu.co/es/universidad/nuestro-campus/sobre-la-ciudad)
+*   [Plan Maestro](https://www.upb.edu.co/es/universidad/nuestro-campus/plan-maestro)
+*   [Proyectos](https://www.upb.edu.co/es/universidad/nuestro-campus/proyectos)
+
+Te puede interesar
+
+[Pagos](https://www.upb.edu.co/es/pagos "Pagos")
+
+[Directorio](https://www.upb.edu.co/es/universidad/directorio "Directorio")
+
+[Convocatorias laborales](https://www.upb.edu.co/es/convocatorias-laborales "Convocatorias laborales")
+
+*    Nuestro Sistema 
+
+*   [Investigación en UPB](https://www.upb.edu.co/es/investigacion/nuestro-sistema/investigacion-upb)
+*   [Transferencia de productos y servicios de investigación](https://www.upb.edu.co/es/transferencia-productos-servicios)
+*   [Innovación en UPB](https://www.upb.edu.co/es/investigacion/innovacion-en-upb)
+*   [Centro de Desarrollo Empresarial](https://www.upb.edu.co/es/ecosistema-emprendimiento-cde)
+*   [Focos estratégicos](https://www.upb.edu.co/es/investigacion/nuestro-sistema/focos-estrategicos)
+*   [Centros](https://www.upb.edu.co/es/investigacion/nuestro-sistema/centros)
+*   [Laboratorios UPB](https://www.upb.edu.co/es/central-laboratorios)
+*   [Institutos](https://www.upb.edu.co/es/investigacion/nuestro-sistema/institutos)
+*   [Grupos de Investigación](https://www.upb.edu.co/es/investigacion/grupos-de-investigacion)
+*   [Semilleros](https://www.upb.edu.co/es/investigacion/nuestro-sistema/semilleros)
+*   [Convocatorias](https://www.upb.edu.co/es/investigacion/nuestro-sistema/convocatorias)
+*   [Permisos ambientales para investigadores](https://www.upb.edu.co/es/investigacion/permisos-ambientales)
+
+*    Capacidades 
+
+*   [Observatorios](https://www.upb.edu.co/es/investigacion/nuestro-sistema/observatorios)
+*   [Divulgación Científica y Comunicaciones](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-divulgacion-cientifica)
+*   [Fortalecimiento Investigativo](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-fortalecimiento-investigativo)
+*   [Formación Investigativa](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-formacion-investigativa)
+
+*    Experiencias 
+
+*   [Proyectos de Investigación y Transferencia](https://www.upb.edu.co/es/investigacion/experiencias/proyectos)
+*   [Patentes](https://www.upb.edu.co/es/investigacion/experiencias/patentes)
+*   [Programa Científico: NanoBioCáncer](https://www.upb.edu.co/es/investigacion/programa-cientifico-nanobiocancer)
+
+¿Quieres investigar?
+
+[Convocatorias Internas](https://www.upb.edu.co/es/investigacion/nuestro-sistema/convocatorias "Convocatorias Internas")
+
+[Convocatorias Externas](https://www.upb.edu.co/es/oferta-becas-convocatorias-externas "Convocatorias Externas")
+
+[Laboratorio de Escritura](https://www.upb.edu.co/es/vida-universitaria/editorial-libreria/laboratorio-de-escritura "Laboratorio de Escritura")
+
+*    Estudiantes UPB 
+
+*   [Estudiar idiomas exterior](https://www.upb.edu.co/es/intercambio/soy-upb/estudiar-idiomas-exterior)
+*   [Prácticas y pasantías](https://www.upb.edu.co/es/intercambio/practicas-pasantias)
+*   [Preparar estudios en el exterior](https://www.upb.edu.co/es/intercambio/soy-upb/preparar-estudios-exterior)
+*   [Programas Movilidad](https://www.upb.edu.co/es/intercambio/soy-upb/programas-movilidad)
+
+*    Estudiantes externos 
+
+*   [Doble titulación en la UPB](https://www.upb.edu.co/es/intercambio/quiero-ser-upb/doble-titulacion)
+*   [Semestre de intercambio](https://www.upb.edu.co/es/intercambio/quiero-ser-upb/semestre-intercambio)
+*   [Sobre Colombia](https://www.upb.edu.co/es/intercambio/quiero-ser-upb/sobre-colombia)
+*   [Inmersiones Internacionales](https://www.upb.edu.co/es/upb-sin-fronteras)
+
+Estudia con nosotros
+
+[Oferta becas y convocatorias](https://www.upb.edu.co/es/oferta-becas-convocatorias-externas "Oferta becas y convocatorias")
+
+[Experiencias UPB](https://www.upb.edu.co/es/central-experiencias "Experiencias UPB")
+
+*   [Agencia de Noticias](https://www.upb.edu.co/es/noticias)
+
+*   [Kit de Prensa](https://www.upb.edu.co/es/vida-universitaria/kitprensa)
+
+*   [Medios](https://www.upb.edu.co/es/vida-universitaria/medios)
+
+*   [Medios Digitales UPB](https://www.upb.edu.co/es/medios-digitales)
+*   [Central de Blogs](https://www.upb.edu.co/es/vida-universitaria/medios/central-blogs)
+*   [Medios Impresos UPB](https://www.upb.edu.co/es/vida-universitaria/medios/impresos)
+*   [Radio UPB](https://www.upb.edu.co/es/vida-universitaria/medios/radio)
+*   [Televisión UPB](https://www.upb.edu.co/es/vida-universitaria/medios/television)
+
+*   [Editorial UPB](https://www.upb.edu.co/es/vida-universitaria/editorial-libreria)
+
+*   [Nuestra historia](https://www.upb.edu.co/es/vida-universitaria/editorial-libreria/sobre-editorial)
+
+*   [Eventos](https://www.upb.edu.co/es/eventos)
+
+*   [Escuela de Verano UPB](https://www.upb.edu.co/es/escuela-de-verano)
+
+Estudia con nosotros
+
+[Galerías](https://www.upb.edu.co/es/vida-universitaria/galerias "Galerías")
+
+[Bibliotecas UPB](https://www.upb.edu.co/es/sistema-de-bibliotecas/servicios "Bibliotecas UPB")
+
+[Transmisiones en vivo](http://streaming.upb.edu.co/ "Transmisiones en vivo")
+
+*   [Evangelización de la cultura universitaria](https://www.upb.edu.co/es/proyeccion-social-y-extension/evangelizacion)
+
+*   [Egresados](https://www.upb.edu.co/es/egresados)
+
+*   [Representantes egresados ante los cuerpos colegiados](https://www.upb.edu.co/es/egresados/representantes-cuerpos-colegiados)
+
+*   [Bienestar Institucional](https://www.upb.edu.co/es/proyeccion-social-y-extension/bienestar-institucional)
+
+*   [Vive saludable](https://www.upb.edu.co/es/bienestar/vive-saludable)
+*   [Vive y aprende](https://www.upb.edu.co/es/bienestar/vive-y-aprende)
+*   [Orientación](https://www.upb.edu.co/es/bienestar/acompanamiento-estudiantes-orientacion)
+*   [Grupos de proyeccion](https://www.upb.edu.co/es/grupos-proyeccion)
+
+*   [Proyección Solidaria](https://www.upb.edu.co/es/proyeccion-social-y-extension/proyeccion-solidaria)
+
+*   [Fundación UPB](https://www.upb.edu.co/es/fundacion-universitaria)
+*   [Etnoeducación](https://www.upb.edu.co/es/proyeccion-social/proyeccion-solidaria/etnoeducacion)
+*   [Líderes](https://www.upb.edu.co/es/proyeccionsocial/evangelizacion/lideres)
+
+*   [PQRS-F](https://www.upb.edu.co/es/seccion-pqrs-f-upb "Preguntas, peticiones, quejas, reclamos, sugerencias y felicitación")
+*   [UPB Virtual](https://www.upb.edu.co/es/upbvirtual "UPB Virtual")
+*   [Clínica](https://www.clinicauniversitariabolivariana.org.co/clinica/home "Clínica")
+*   [Transparencia](https://www.upb.edu.co/es/transparencia-acceso-informacion "Transparencia")
+*   [Soy UPB](https://soyupb.upb.edu.co/ "Soy UPB")
+
+Buscar 
+
+[![Image 2: Logo UPB](https://www.upb.edu.co/wcs_statics/pp/img/Logo-UPB-2022.svg)](https://www.upb.edu.co/es/home "Home")Desplegar navegación
+
+Buscador 
+
+*   Oferta Académica[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+    *   [¿Qué estudiar?](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Programas profesionales](https://www.upb.edu.co/es/pregrados)
+        *   [Posgrados](https://www.upb.edu.co/es/postgrados)
+        *   [Programas virtuales](https://www.upb.edu.co/es/upbvirtual)
+        *   [Centro de Lenguas](https://www.upb.edu.co/es/centro-lenguas)
+        *   [Programas de Formación Continua](https://www.upb.edu.co/es/formacion-continua)
+        *   [Programas Técnicos](https://www.upb.edu.co/es/programas-tecnicos)
+
+    *   [¿Cómo estudiar?](https://www.upb.edu.co/es/inscripciones-abiertas)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Cómo empezar una carrera profesional](https://www.upb.edu.co/es/carrera-profesional)
+        *   [Por qué estudiar en la UPB](https://www.upb.edu.co/es/estudiar-en-universidad-upb)
+        *   [UPB Contigo](https://www.upb.edu.co/es/apoyo-upb-contigo)
+        *   [UPB Academy](https://www.upb.edu.co/es/upb-academy)
+
+    
+
+Diligencia el formulario de admisión
+
+    
+
+[Pregrados](https://formularioadmision.upb.edu.co/#/usuario/iniciar-sesion "Pregrados")
+
+    
+
+[Posgrados](https://formularioadmision.upb.edu.co/#/usuario/iniciar-sesion "Posgrados")
+
+    
+
+[UPBTEC](https://sigaa.upb.edu.co/BANPDN/bwskalog.P_DispLoginNon "UPBTEC")
+
+*   [La Universidad](https://www.upb.edu.co/es/la-universidad)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+    *   [Sobre la Universidad](https://www.upb.edu.co/es/la-universidad)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Digitalmente juntos](https://www.upb.edu.co/es/digitalmente-juntos)
+        *   [Autoevaluación Institucional Multicampus](https://www.upb.edu.co/es/autoevaluacion-institucional-multicampus)
+        *   [Sostenibilidad](https://www.upb.edu.co/es/sostenibilidad)
+        *   [Sistema de Bibliotecas](https://www.upb.edu.co/es/sistema-de-bibliotecas/servicios)
+        *   [Identidad, Principios e Historia](https://www.upb.edu.co/es/identidad-principios-historia)
+        *   [Directivos de la Universidad](https://www.upb.edu.co/es/directivos)
+        *   [Centros, Institutos y Fundaciones](https://www.upb.edu.co/es/centros-institutos-fundaciones)
+        *   [Elecciones de representantes](https://www.upb.edu.co/es/elecciones-representantes)
+        *   [Normatividad y reglamentos](https://www.upb.edu.co/es/normatividad-reglamentos)
+        *   [Nuestra naturaleza y enfoque](https://www.upb.edu.co/es/naturaleza-y-enfoque)
+        *   [Información para la Dian](https://www.upb.edu.co/es/informacion-dian)
+        *   [Proceso de grados](https://www.upb.edu.co/es/estudiantes/proceso-grados)
+
+    *   [Visibilidad](https://www.upb.edu.co/es/estudiantes/proceso-grados)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Ranking](https://www.upb.edu.co/es/ranking-de-universidades)
+        *   [Reconocimientos](https://www.upb.edu.co/es/reconocimientos)
+        *   [UPB en los medios](https://www.upb.edu.co/es/upb-en-los-medios)
+        *   [UPB en Colombia y mundo](https://www.upb.edu.co/es/upb-en-colombia-y-mundo)
+        *   [Convocatorias laborales](https://www.upb.edu.co/es/convocatorias-laborales)
+
+    *   [Nuestro Campus](https://www.upb.edu.co/es/la-universidad/campus-upb)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Servicios](https://www.upb.edu.co/es/universidad/nuestro-campus/servicios)
+        *   [Sobre las ciudades](https://www.upb.edu.co/es/universidad/nuestro-campus/sobre-la-ciudad)
+        *   [Plan Maestro](https://www.upb.edu.co/es/universidad/nuestro-campus/plan-maestro)
+        *   [Proyectos](https://www.upb.edu.co/es/universidad/nuestro-campus/proyectos)
+
+    
+
+Te puede interesar
+
+    
+
+[Pagos](https://www.upb.edu.co/es/pagos "Pagos")
+
+    
+
+[Directorio](https://www.upb.edu.co/es/universidad/directorio "Directorio")
+
+    
+
+[Convocatorias laborales](https://www.upb.edu.co/es/convocatorias-laborales "Convocatorias laborales")
+
+*   [Investigación](https://www.upb.edu.co/es/investigacion)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+    *   [Nuestro Sistema](https://www.upb.edu.co/es/investigacion)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Investigación en UPB](https://www.upb.edu.co/es/investigacion/nuestro-sistema/investigacion-upb)
+        *   [Transferencia de productos y servicios de investigación](https://www.upb.edu.co/es/transferencia-productos-servicios)
+        *   [Innovación en UPB](https://www.upb.edu.co/es/investigacion/innovacion-en-upb)
+        *   [Centro de Desarrollo Empresarial](https://www.upb.edu.co/es/ecosistema-emprendimiento-cde)
+        *   [Focos estratégicos](https://www.upb.edu.co/es/investigacion/nuestro-sistema/focos-estrategicos)
+        *   [Centros](https://www.upb.edu.co/es/investigacion/nuestro-sistema/centros)
+        *   [Laboratorios UPB](https://www.upb.edu.co/es/central-laboratorios)
+        *   [Institutos](https://www.upb.edu.co/es/investigacion/nuestro-sistema/institutos)
+        *   [Grupos de Investigación](https://www.upb.edu.co/es/investigacion/grupos-de-investigacion)
+        *   [Semilleros](https://www.upb.edu.co/es/investigacion/nuestro-sistema/semilleros)
+        *   [Convocatorias](https://www.upb.edu.co/es/investigacion/nuestro-sistema/convocatorias)
+        *   [Permisos ambientales para investigadores](https://www.upb.edu.co/es/investigacion/permisos-ambientales)
+
+    *   [Capacidades](https://www.upb.edu.co/es/investigacion/permisos-ambientales)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Observatorios](https://www.upb.edu.co/es/investigacion/nuestro-sistema/observatorios)
+        *   [Divulgación Científica y Comunicaciones](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-divulgacion-cientifica)
+        *   [Fortalecimiento Investigativo](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-fortalecimiento-investigativo)
+        *   [Formación Investigativa](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-formacion-investigativa)
+
+    *   [Experiencias](https://www.upb.edu.co/es/investigacion/capacidades/otros-programas-cidi/programa-formacion-investigativa)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Proyectos de Investigación y Transferencia](https://www.upb.edu.co/es/investigacion/experiencias/proyectos)
+        *   [Patentes](https://www.upb.edu.co/es/investigacion/experiencias/patentes)
+        *   [Programa Científico: NanoBioCáncer](https://www.upb.edu.co/es/investigacion/programa-cientifico-nanobiocancer)
+
+    
+
+¿Quieres investigar?
+
+    
+
+[Convocatorias Internas](https://www.upb.edu.co/es/investigacion/nuestro-sistema/convocatorias "Convocatorias Internas")
+
+    
+
+[Convocatorias Externas](https://www.upb.edu.co/es/oferta-becas-convocatorias-externas "Convocatorias Externas")
+
+    
+
+[Laboratorio de Escritura](https://www.upb.edu.co/es/vida-universitaria/editorial-libreria/laboratorio-de-escritura "Laboratorio de Escritura")
+
+*   [Intercambio](https://www.upb.edu.co/es/intercambio)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+    *   [Estudiantes UPB](https://www.upb.edu.co/es/intercambio)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Estudiar idiomas exterior](https://www.upb.edu.co/es/intercambio/soy-upb/estudiar-idiomas-exterior)
+        *   [Prácticas y pasantías](https://www.upb.edu.co/es/intercambio/practicas-pasantias)
+        *   [Preparar estudios en el exterior](https://www.upb.edu.co/es/intercambio/soy-upb/preparar-estudios-exterior)
+        *   [Programas Movilidad](https://www.upb.edu.co/es/intercambio/soy-upb/programas-movilidad)
+
+    *   [Estudiantes externos](https://www.upb.edu.co/es/intercambio/soy-upb/programas-movilidad)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Doble titulación en la UPB](https://www.upb.edu.co/es/intercambio/quiero-ser-upb/doble-titulacion)
+        *   [Semestre de intercambio](https://www.upb.edu.co/es/intercambio/quiero-ser-upb/semestre-intercambio)
+        *   [Sobre Colombia](https://www.upb.edu.co/es/intercambio/quiero-ser-upb/sobre-colombia)
+        *   [Inmersiones Internacionales](https://www.upb.edu.co/es/upb-sin-fronteras)
+
+    
+
+Estudia con nosotros
+
+    
+
+[Oferta becas y convocatorias](https://www.upb.edu.co/es/oferta-becas-convocatorias-externas "Oferta becas y convocatorias")
+
+    
+
+[Experiencias UPB](https://www.upb.edu.co/es/central-experiencias "Experiencias UPB")
+
+*   [Vida Universitaria](https://www.upb.edu.co/es/vida-universitaria)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+    *   [Agencia de Noticias](https://www.upb.edu.co/es/noticias)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Kit de Prensa](https://www.upb.edu.co/es/vida-universitaria/kitprensa)
+
+    *   [Medios](https://www.upb.edu.co/es/vida-universitaria/medios)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Medios Digitales UPB](https://www.upb.edu.co/es/medios-digitales)
+        *   [Central de Blogs](https://www.upb.edu.co/es/vida-universitaria/medios/central-blogs)
+        *   [Medios Impresos UPB](https://www.upb.edu.co/es/vida-universitaria/medios/impresos)
+        *   [Radio UPB](https://www.upb.edu.co/es/vida-universitaria/medios/radio)
+        *   [Televisión UPB](https://www.upb.edu.co/es/vida-universitaria/medios/television)
+
+    *   [Editorial UPB](https://www.upb.edu.co/es/vida-universitaria/editorial-libreria)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Nuestra historia](https://www.upb.edu.co/es/vida-universitaria/editorial-libreria/sobre-editorial)
+
+    *   [Eventos](https://www.upb.edu.co/es/eventos)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Escuela de Verano UPB](https://www.upb.edu.co/es/escuela-de-verano)
+
+    
+
+Estudia con nosotros
+
+    
+
+[Galerías](https://www.upb.edu.co/es/vida-universitaria/galerias "Galerías")
+
+    
+
+[Bibliotecas UPB](https://www.upb.edu.co/es/sistema-de-bibliotecas/servicios "Bibliotecas UPB")
+
+    
+
+[Transmisiones en vivo](http://streaming.upb.edu.co/ "Transmisiones en vivo")
+
+*   [Proyección Social](https://www.upb.edu.co/es/proyeccion-social-y-extension)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+    *   [Evangelización de la cultura universitaria](https://www.upb.edu.co/es/proyeccion-social-y-extension/evangelizacion)
+    *   [Egresados](https://www.upb.edu.co/es/egresados)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Representantes egresados ante los cuerpos colegiados](https://www.upb.edu.co/es/egresados/representantes-cuerpos-colegiados)
+
+    *   [Bienestar Institucional](https://www.upb.edu.co/es/proyeccion-social-y-extension/bienestar-institucional)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Vive saludable](https://www.upb.edu.co/es/bienestar/vive-saludable)
+        *   [Vive y aprende](https://www.upb.edu.co/es/bienestar/vive-y-aprende)
+        *   [Orientación](https://www.upb.edu.co/es/bienestar/acompanamiento-estudiantes-orientacion)
+        *   [Grupos de proyeccion](https://www.upb.edu.co/es/grupos-proyeccion)
+
+    *   [Proyección Solidaria](https://www.upb.edu.co/es/proyeccion-social-y-extension/proyeccion-solidaria)[Desplegar submenú](https://www.upb.edu.co/es/pregrados/ingenieria-aeronautica-medellin#)
+        *   [Fundación UPB](https://www.upb.edu.co/es/fundacion-universitaria)
+        *   [Etnoeducación](https://www.upb.edu.co/es/proyeccion-social/proyeccion-solidaria/etnoeducacion)
+        *   [Líderes](https://www.upb.edu.co/es/proyeccionsocial/evangelizacion/lideres)
+
+*   [Estudiante](https://soyupb.upb.edu.co/webcenter/portal/estudiantes "Estudiante")
+*   [Administrativos](https://soyupb.upb.edu.co/webcenter/portal/administrativos "Administrativos")
+*   [Docentes](https://soyupb.upb.edu.co/webcenter/portal/docentes "Docentes")
+*   [Egresados](https://www.upb.edu.co/es/egresados "Egresados")
+
+*   [PQRS-F](https://www.upb.edu.co/es/seccion-pqrs-f-upb "Preguntas, peticiones, quejas, reclamos, sugerencias y felicitación")
+*   [UPB Virtual](https://www.upb.edu.co/es/upbvirtual "UPB Virtual")
+*   [Clínica](https://www.clinicauniversitariabolivariana.org.co/clinica/home "Clínica")
+*   [Transparencia](https://www.upb.edu.co/es/transparencia-acceso-informacion "Transparencia")
+*   [Soy UPB](https://soyupb.upb.edu.co/ "Soy UPB")
+
+[Acceso a SIGAA](https://sigaa.upb.edu.co/ssomanager/c/SSB "Acceso a SIGAA")
+
+[Quiero donar](https://www.upb.edu.co/es/upb-familia-solidaria-unamonos "Quiero donar")
+
+[UPB Virtual](https://www.upb.edu.co/es/upbvirtual "UPB Virtual")
+
+1.   [Inicio](https://www.upb.edu.co/es/home)
+2.   Oferta Académica
+3.   ¿Qué estudiar?
+4.   [Programas profesionales](https://www.upb.edu.co/es/pregrados)
+5.   Ingeniería Aeronáutica en Medellín
