@@ -52,6 +52,9 @@ En empresas del sector aeronáutico,en las áreas de:
 *   Ingeniería de detalle, mantenimiento ensamblaje, instalación y montaje.
 *   Control y protección de sistemas.
 *   Comercialización y mercadeo de servicios.
+
+El ingeniero aeronáutico UPB es un profesional que soluciona problemas de la sociedad en un campo de acción específico, la ingeniería aeronáutica, sintetizando los conocimientos científicos, tecnológicos y técnicos aprendidos, las habilidades desarrolladas y actitudes fortalecidas a lo largo de su formación. Maneja, genera y utiliza modelos fisicomatemáticos de los problemas de su área. Integra habilidades en computación, química, ciencia de materiales, economía, legislación y administración, con conocimientos básicos en técnicas de diseño, fabricación, gestión del mantenimiento y operación de aeronaves. Por último, interactúa con profesionales de otras disciplinas para encarar proyectos complejos, como son los de la ingeniería aeronáutica.
+
 ----------------------
 
 Conoce otros pregrados relacionados a la carrera de Ingeniería Aeronáutica que ofrece la UPB:
@@ -61,6 +64,24 @@ Conoce otros pregrados relacionados a la carrera de Ingeniería Aeronáutica que
 
 *   Ingeniería Mecánica: [Presencial](https://www.upb.edu.co/es/pregrados/ingenieria-mecanica-medellin) - SNIES 1202
 *   Ingeniería Industrial: [Presencial](https://www.upb.edu.co/es/pregrados/ingenieria-industrial-medellin) - SNIES 17506
+
+## Interacción con el sector externo
+
+El programa de Ingeniería Aeronáutica de la UPB ha desarrollado múltiples estrategias de vinculación con el sector externo tanto para estudiantes como para docentes, estas iniciativas buscan facilitar procesos de intercambio académico ya sea para la realización de estudios en diferentes niveles de formación permitiendo la obtención de dobles titulaciones o semestre de intercambio.  Así mismo, existe la posibilidad de realizar actividades de cualificación, participación en eventos académicos, prácticas empresariales y proyectos de investigación en organizaciones industriales e investigativas de sectores diversos, en especial el aeronáutico.
+
+Los estudiantes de Ingeniería Aeronáutica de UPB tienen la posibilidad de acceder a diferentes modalidades de intercambio, gracias a los convenios gestionados por la Oficina de Relaciones Internacionales (ORI). Dentro de estas modalidades se encuentran los semestres de intercambios nacionales e internacionales, en los que los estudiantes acceden a más de 230 convenios suscritos con IES en diferentes países de los 5 continentes; el Programa Intercampus UPB, que facilita la movilidad estudiantil entre los 4 campus de la universidad en Colombia, y el Programa Sígueme, que reúne a doce de las mejores universidades del país en un convenio de movilidad entrante y saliente.   Adicionalmente, la facultad ha establecido convenios internacionales específicos con universidades tales como:
+
+* Politécnico di Milano.
+* Universidad Estadual Paulista (UNESP).
+* University of Texas at Austin (UTexas).
+* University of West Virginia.
+
+* Technische Universität Berlin (TU Berlin).
+* Universidad Autónoma de Baja California (UABC).
+* Institut Mines-Télécom.
+* Universidad Estatal del Suroeste de Rusia (UESOR).
+
+
 
 ### Preguntas frecuentes
 --------------------
