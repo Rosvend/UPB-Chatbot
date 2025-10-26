@@ -6,7 +6,6 @@ Orchestrates the complete flow: load → chunk → ready for retrieval.
 from pathlib import Path
 import sys
 
-# Add src to path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from loader.ingest import load_upb_documents
@@ -38,23 +37,23 @@ if __name__ == "__main__":
     print("=" * 70)
     print("UPB RAG DATA PIPELINE")
     print("=" * 70)
-    print("\n📋 Pipeline: Load → Chunk → Ready for Retrieval\n")
+    print("\nPipeline: Load → Chunk → Ready for Retrieval\n")
     
     chunks = prepare_documents_for_rag()
     
-    print(f"\n✅ Pipeline complete!")
-    print(f"📊 Generated {len(chunks)} chunks")
-    print(f"📊 Average size: {sum(len(c.page_content) for c in chunks) // len(chunks)} chars")
-    
+    print(f"\nPipeline complete!")
+    print(f" Generated {len(chunks)} chunks")
+    print(f" Average size: {sum(len(c.page_content) for c in chunks) // len(chunks)} chars")
+
     # Statistics
     categories = {}
     for chunk in chunks:
         cat = chunk.metadata.get('category', 'unknown')
         categories[cat] = categories.get(cat, 0) + 1
-    
-    print("\n📦 Distribution:")
+
+    print("\nDistribution:")
     for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
         percentage = (count / len(chunks)) * 100
         print(f"  - {cat}: {count} chunks ({percentage:.1f}%)")
-    
-    print("\n✨ Ready for embedding and retrieval!")
+
+    print("\nReady for embedding and retrieval!")

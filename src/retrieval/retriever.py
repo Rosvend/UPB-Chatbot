@@ -1,34 +1,12 @@
 """
 Retrieval Module with Multiple Search Strategies
-Implements dense (vector), sparse (BM25), and MMR-based retrieval.
+Implements dense (vector), sparse (BM25), and MMR-based retrieval with rank fusion.
 """
 
 from typing import List, Literal
 from langchain_core.documents import Document
 from langchain_community.retrievers import BM25Retriever
-
-
-class SimpleEnsembleRetriever:
-    """Simple ensemble retriever that combines results from multiple retrievers."""
-    
-    def __init__(self, retrievers: List, weights: List[float]):
-        self.retrievers = retrievers
-        self.weights = weights
-    
-    def invoke(self, query: str) -> List[Document]:
-        """Combine results from all retrievers with weighted scores."""
-        all_results = []
-        seen_content = set()
-        
-        for retriever, weight in zip(self.retrievers, self.weights):
-            results = retriever.invoke(query)
-            for doc in results:
-                # Simple deduplication by content
-                if doc.page_content not in seen_content:
-                    all_results.append(doc)
-                    seen_content.add(doc.page_content)
-        
-        return all_results
+from langchain_classic.retrievers import EnsembleRetriever
 
 
 class UPBRetriever:
@@ -96,13 +74,14 @@ class UPBRetriever:
     def get_hybrid_retriever(self, k: int = 4, weights: List[float] = None):
         """
         Get hybrid retriever combining BM25 (sparse) and vector (dense) search.
+        Uses rank fusion to intelligently merge results from both approaches.
         
         Args:
             k: Number of documents to retrieve
             weights: [bm25_weight, vector_weight]. Default: [0.5, 0.5]
             
         Returns:
-            SimpleEnsembleRetriever combining both approaches
+            EnsembleRetriever with rank fusion combining both approaches
         """
         if self.vectorstore is None:
             raise ValueError("Vectorstore not initialized. Please create embeddings first.")
@@ -112,7 +91,9 @@ class UPBRetriever:
         bm25_retriever = self.get_bm25_retriever(k=k)
         dense_retriever = self.get_dense_retriever(k=k)
         
-        return SimpleEnsembleRetriever(
+        # EnsembleRetriever uses Reciprocal Rank Fusion (RRF) algorithm
+        # which is more sophisticated than simple concatenation
+        return EnsembleRetriever(
             retrievers=[bm25_retriever, dense_retriever],
             weights=weights
         )
@@ -165,11 +146,11 @@ if __name__ == "__main__":
     from loader.ingest import load_upb_documents
     from processing.chunking import chunk_documents
     
-    print("🚀 Loading and chunking documents...\n")
+    print("Loading and chunking documents...\n")
     documents = load_upb_documents()
     chunks = chunk_documents(documents)
     
-    print(f"✅ Loaded {len(chunks)} chunks\n")
+    print(f"Loaded {len(chunks)} chunks\n")
     
     # Initialize retriever (without vectorstore for BM25 demo)
     retriever = UPBRetriever(chunks)
@@ -190,5 +171,5 @@ if __name__ == "__main__":
         print(f"  Preview: {doc.page_content[:150]}...")
         print()
     
-    print("✨ Retrieval module ready!")
+    print(" Retrieval module ready!")
     print("\nNote: For similarity, MMR, and hybrid search, initialize with a vectorstore.")

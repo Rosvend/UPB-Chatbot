@@ -44,26 +44,26 @@ if __name__ == "__main__":
     
     from loader.ingest import load_upb_documents
     
-    print("🚀 Loading documents...\n")
+    print(" Loading documents...\n")
     documents = load_upb_documents()
     
-    print(f"✅ Loaded {len(documents)} documents")
-    print(f"📊 Total characters: {sum(len(doc.page_content) for doc in documents):,}\n")
+    print(f" Loaded {len(documents)} documents")
+    print(f" Total characters: {sum(len(doc.page_content) for doc in documents):,}\n")
     
-    print("✂️  Chunking documents...")
+    print(" Chunking documents...")
     chunks = chunk_documents(documents)
     
-    print(f"\n✅ Created {len(chunks)} chunks")
-    print(f"📊 Average chunk size: {sum(len(c.page_content) for c in chunks) // len(chunks):,} characters")
+    print(f"\n Created {len(chunks)} chunks")
+    print(f" Average chunk size: {sum(len(c.page_content) for c in chunks) // len(chunks):,} characters")
 
     # Show chunks by category
     chunk_categories = {}
     for chunk in chunks:
         cat = chunk.metadata.get('category', 'unknown')
         chunk_categories[cat] = chunk_categories.get(cat, 0) + 1
-    
-    print("\n📦 Chunks by category:")
+
+    print("\nChunks by category:")
     for cat, count in sorted(chunk_categories.items()):
         print(f"  - {cat}: {count} chunks")
-    
-    print("\n✨ Chunks ready for embedding!")
+
+    print("\nChunks ready for embedding!")

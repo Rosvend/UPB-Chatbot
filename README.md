@@ -8,9 +8,9 @@ A Retrieval-Augmented Generation (RAG) system to help prospective students explo
 |-----------|-----------|
 | **LLM** | Azure ChatOpenAI / OpenAI GPT-4.1 |
 | **Embeddings** | AzureOpenAIEmbeddings |
-| **Vector Store** | FAISS or ChromaDB |
+| **Vector Store** | ChromaDB |
 | **Framework** | LangChain |
-| **Retrieval** | BM25 (rank-bm25) + MMR |
+| **Retrieval** | BM25 (rank-bm25) + MMR + RRF Ensemble |
 | **UI** | Gradio *(planned)* |
 | **Deployment** | Hugging Face Spaces *(planned)* |
 | **Package Manager** | UV |
@@ -45,17 +45,6 @@ A Retrieval-Augmented Generation (RAG) system to help prospective students explo
 - Python 3.12
 - [UV](https://docs.astral.sh/uv/) package manager
 
-### Configuration
-
-Create a `.env` file with your Azure OpenAI credentials (for embeddings & LLM):
-
-```env
-AZURE_OPENAI_API_KEY=your_key_here
-AZURE_OPENAI_ENDPOINT=https://your-endpoint.openai.azure.com/
-AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small
-AZURE_OPENAI_LLM_DEPLOYMENT=gpt-4o-mini
-```
-
 
 ### Installation
 
@@ -66,6 +55,17 @@ cd UPB-RAG-Careers
 
 # Install dependencies with UV
 uv sync
+```
+
+### Configuration
+
+Create a `.env` file with your Azure OpenAI credentials (for embeddings & LLM):
+
+```env
+AZURE_OPENAI_API_KEY=your_key_here
+AZURE_OPENAI_ENDPOINT=https://your-endpoint.openai.azure.com/
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small
+AZURE_OPENAI_LLM_DEPLOYMENT=gpt-4o-mini
 ```
 
 ### Running the Pipeline
@@ -112,11 +112,18 @@ Intelligent text splitting with context preservation.
 - Tracks chunk position
 
 ### `src/retrieval/retriever.py`
-Multi-strategy retrieval system.
-- **BM25**: Keyword-based (Okapi BM25)
-- **Similarity**: Dense vector search
-- **MMR**: Diverse results with `lambda_mult` control
-- **Hybrid**: Weighted ensemble of BM25 + vector
+Multi-strategy retrieval system with **Reciprocal Rank Fusion (RRF)**.
+- **BM25**: Keyword-based sparse retrieval (Okapi BM25)
+- **Similarity**: Dense vector search with embeddings
+- **MMR**: Maximal Marginal Relevance for diverse results
+- **Hybrid**: Ensemble with RRF algorithm (from `langchain-classic`)
+  - Uses Reciprocal Rank Fusion to intelligently merge BM25 + vector results
+  - Better than simple concatenation: boosts docs appearing in both retrievers
+  - Handles different scoring scales and provides better diversity control
+
+**Why RRF?** Documents that appear in both BM25 and vector search get higher scores,
+indicating they're relevant both keyword-wise AND semantically. This produces better
+results than either method alone.
 
 ### `src/pipeline.py`
 Orchestrates the complete data preparation flow.

@@ -53,12 +53,12 @@ def load_upb_documents(show_progress=True):
 
 
 if __name__ == "__main__":
-    print("🚀 Loading markdown files from data/ directory...\n")
+    print(" Loading markdown files from data/ directory...\n")
     documents = load_upb_documents()
-    
-    print(f"\n✅ Loaded {len(documents)} documents")
-    print(f"📊 Total characters: {sum(len(doc.page_content) for doc in documents):,}")
-    
+
+    print(f"\n Loaded {len(documents)} documents")
+    print(f" Total characters: {sum(len(doc.page_content) for doc in documents):,}")
+
     # Group by category
     categories = {}
     for doc in documents:
