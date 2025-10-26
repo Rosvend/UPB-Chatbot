@@ -1,0 +1,60 @@
+"""
+Main Data Pipeline
+Orchestrates the complete flow: load → chunk → ready for retrieval.
+"""
+
+from pathlib import Path
+import sys
+
+# Add src to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from loader.ingest import load_upb_documents
+from processing.chunking import chunk_documents
+
+
+def prepare_documents_for_rag(chunk_size=1000, chunk_overlap=200, show_progress=True):
+    """
+    Complete data preparation pipeline.
+    
+    Args:
+        chunk_size: Maximum characters per chunk
+        chunk_overlap: Overlap between chunks in characters
+        show_progress: Show loading progress bar
+    
+    Returns:
+        list: Chunked documents ready for embedding and retrieval
+    """
+    # Step 1: Load documents
+    documents = load_upb_documents(show_progress=show_progress)
+    
+    # Step 2: Chunk documents
+    chunks = chunk_documents(documents, chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    
+    return chunks
+
+
+if __name__ == "__main__":
+    print("=" * 70)
+    print("UPB RAG DATA PIPELINE")
+    print("=" * 70)
+    print("\n📋 Pipeline: Load → Chunk → Ready for Retrieval\n")
+    
+    chunks = prepare_documents_for_rag()
+    
+    print(f"\n✅ Pipeline complete!")
+    print(f"📊 Generated {len(chunks)} chunks")
+    print(f"📊 Average size: {sum(len(c.page_content) for c in chunks) // len(chunks)} chars")
+    
+    # Statistics
+    categories = {}
+    for chunk in chunks:
+        cat = chunk.metadata.get('category', 'unknown')
+        categories[cat] = categories.get(cat, 0) + 1
+    
+    print("\n📦 Distribution:")
+    for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
+        percentage = (count / len(chunks)) * 100
+        print(f"  - {cat}: {count} chunks ({percentage:.1f}%)")
+    
+    print("\n✨ Ready for embedding and retrieval!")
