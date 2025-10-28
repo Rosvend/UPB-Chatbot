@@ -6,11 +6,13 @@ A Retrieval-Augmented Generation (RAG) system to help prospective students explo
 
 - Conversational AI with GPT-4o-mini for natural interactions
 - Multi-strategy retrieval: BM25, Vector Similarity, MMR, and Hybrid RRF
+- Header-based chunking with semantic structure preservation
+- Rich metadata extraction from YAML frontmatter
 - Conversation memory for multi-turn dialogues
 - Source citations for transparency
 - Spanish language optimized
-- 16 curated documents covering 12 engineering programs
-- 217 optimized chunks for efficient retrieval
+- 17 curated documents covering 12 engineering programs plus metadata catalog
+- 368 optimized chunks with hierarchical metadata for efficient retrieval
 
 ## Tech Stack
 
@@ -34,15 +36,17 @@ A Retrieval-Augmented Generation (RAG) system to help prospective students explo
 │   ├── contact/              # Contact information
 │   ├── engineerings/         # Engineering program details (12 programs)
 │   ├── enroll/               # Enrollment information
+│   ├── metadata/             # Program metadata catalog
+│   │   └── metadata.json    # Structured program information
 │   └── scholarships/         # Financial aid & scholarships
 │
 ├── src/
 │   ├── embeddings/
 │   │   └── embeddings.py    # Azure/OpenAI embeddings initialization
 │   ├── loader/
-│   │   └── ingest.py        # Document loader with metadata enrichment
+│   │   └── ingest.py        # Document loader with metadata.json support
 │   ├── processing/
-│   │   └── chunking.py      # Smart text chunking module
+│   │   └── chunking.py      # Header-based chunking with YAML frontmatter
 │   ├── rag/
 │   │   └── chain.py         # RAG chain with conversation memory
 │   ├── retrieval/
@@ -202,17 +206,55 @@ results = manager.similarity_search("query", k=4)
 ```
 
 ### `src/loader/ingest.py`
-Loads markdown files with automatic category detection based on folder structure.
-- Supports progress tracking
-- Multithreaded loading
-- Metadata enrichment
+Loads markdown files with automatic category detection and metadata catalog integration.
+- Multithreaded loading with progress tracking
+- Automatic category assignment based on folder structure
+- Loads and integrates metadata.json as searchable document
+- Metadata enrichment for all documents
+
+**Features**:
+- Categories: engineering, contact, enrollment, scholarships, general, metadata
+- Includes program catalog from metadata.json
+- Comprehensive program information for better context
 
 ### `src/processing/chunking.py`
-Intelligent text splitting with context preservation.
-- Paragraph-aware chunking
+Header-based chunking with YAML frontmatter extraction for semantic structure preservation.
+- Uses MarkdownHeaderTextSplitter for header-aware splitting
+- Extracts YAML frontmatter metadata from each document
+- Preserves header hierarchy (H1, H2, H3) in chunk metadata
 - Configurable size and overlap
-- Preserves all metadata
 - Tracks chunk position
+
+**Metadata Included in Each Chunk**:
+- Original document metadata (source, category)
+- YAML frontmatter (title, institution, program_code, campus, degree_type, etc.)
+- Header hierarchy (Header 1, Header 2, Header 3)
+- Chunk position (start_index)
+
+**Usage**:
+```python
+from processing.chunking import chunk_documents
+
+chunks = chunk_documents(
+    documents, 
+    chunk_size=1000, 
+    chunk_overlap=200, 
+    use_headers=True  # Enable header-based chunking
+)
+
+# Each chunk has rich metadata
+chunk.metadata = {
+    'source': '/path/to/file.md',
+    'category': 'engineering',
+    'title': 'Ingeniería Aeronáutica',
+    'institution': 'Universidad Pontificia Bolivariana (UPB)',
+    'program_code': '17593',
+    'Header 1': 'Ingeniería Aeronáutica - UPB Medellín',
+    'Header 2': 'Plan de estudios',
+    'Header 3': 'Primer semestre',
+    'start_index': 1500
+}
+```
 
 ### `src/retrieval/retriever.py`
 Multi-strategy retrieval system with **Reciprocal Rank Fusion (RRF)**.
