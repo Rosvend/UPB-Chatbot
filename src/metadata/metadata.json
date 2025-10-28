@@ -1,0 +1,84 @@
+{
+  "programs": [
+    {
+      "name": "Ingeniería Administrativa",
+      "file": "ing_administrativa.md",
+      "category": "engineerings",
+      "keywords": ["administrativa", "administración", "gestión", "negocios"]
+    },
+    {
+      "name": "Ingeniería Aeronáutica",
+      "file": "ing_aeronautica.md",
+      "category": "engineerings",
+      "keywords": ["aeronáutica", "aeroespacial", "aviación", "aeronaves"]
+    },
+    {
+      "name": "Ingeniería Agroindustrial",
+      "file": "ing_agroindustrial.md",
+      "category": "engineerings",
+      "keywords": ["agroindustrial", "alimentos", "agricultura", "agrícola"]
+    },
+    {
+      "name": "Ingeniería en Ciencia de Datos",
+      "file": "ing_cienciadedatos.md",
+      "category": "engineerings",
+      "keywords": ["ciencia de datos", "datos", "data science", "analytics", "big data"]
+    },
+    {
+      "name": "Ingeniería Eléctrica",
+      "file": "ing_electrica.md",
+      "category": "engineerings",
+      "keywords": ["eléctrica", "electricidad", "energía", "potencia"]
+    },
+    {
+      "name": "Ingeniería Electrónica",
+      "file": "ing_electronica.md",
+      "category": "engineerings",
+      "keywords": ["electrónica", "circuitos", "telecomunicaciones"]
+    },
+    {
+      "name": "Ingeniería en Diseño de Entretenimiento Digital",
+      "file": "ing_ided.md",
+      "category": "engineerings",
+      "keywords": ["ided", "diseño", "entretenimiento", "digital", "videojuegos", "animación"]
+    },
+    {
+      "name": "Ingeniería Industrial",
+      "file": "ing_industrial.md",
+      "category": "engineerings",
+      "keywords": ["industrial", "producción", "manufactura", "procesos"]
+    },
+    {
+      "name": "Ingeniería Mecánica",
+      "file": "ing_mecanica.md",
+      "category": "engineerings",
+      "keywords": ["mecánica", "mecatrónica", "máquinas", "automotriz"],
+      "accreditations": ["ABET", "Alta Calidad"]
+    },
+    {
+      "name": "Ingeniería en Nanotecnología",
+      "file": "ing_nanotecnología.md",
+      "category": "engineerings",
+      "keywords": ["nanotecnología", "nano", "materiales", "nanociencia"]
+    },
+    {
+      "name": "Ingeniería Química",
+      "file": "ing_quimica.md",
+      "category": "engineerings",
+      "keywords": ["química", "procesos químicos", "petroquímica"],
+      "accreditations": ["ABET"]
+    },
+    {
+      "name": "Ingeniería de Sistemas e Informática",
+      "file": "ing_sistemas.md",
+      "category": "engineerings",
+      "keywords": ["sistemas", "informática", "software", "programación", "computación"]
+    }
+  ],
+  "metadata": {
+    "total_programs": 12,
+    "abet_accredited": ["Ingeniería Mecánica", "Ingeniería Química"],
+    "alta_calidad_accredited": ["Ingeniería Mecánica"],
+    "last_updated": "2025-10-27"
+  }
+}
