@@ -9,7 +9,7 @@ program_duration: 9 semestres
 program_code: 14258
 accreditation: Registro calificado 
 registration_validity: 7 años
-domain_tags: [data science, artificial intelligence, machine learning, analytics, universidad, colombia]
+domain_tags: [ciencia de datos, inteligencia artificial, machine learning, analytics, universidad, colombia]
 language: Español
 ---
 
@@ -70,6 +70,21 @@ Posibles cargos:
 - Analista de Calidad o Big Data  
 
 ---
+
+## Investigación
+
+La facultad de Ingeniería en TIC cuenta con el Grupo de Investigación y Desarrollo de Aplicaciones en Tecnologías de la Información y la Comunicación - GIDATIC para soportar los programas de Ingeniería de Sistemas e Informática, Ingeniería en Diseño de Entretenimiento Digital, Ingeniería en Ciencia de Datos e Ingeniería de Telecomunicaciones en pregrado, así como los programas de posgrado Especialización en Inteligencia de Negocios, Especialización en Seguridad Informática, la Maestría en TIC y la ruta TIC del Doctorado en Ingeniería.
+
+El grupo de Investigación GIDATIC fue fundado en 1998 en la Universidad Pontificia Bolivariana y desde entonces ha ejecutado proyectos de investigación en el área de las Tecnologías de la Información y Comunicación, buscando fortalecer la capacidad científica y tecnológica del país.
+
+Actualmente, tiene las siguientes líneas de investigación:
+
+- Inteligencia Artificial y Ciencia de Datos.
+- Infraestructura y Arquitecturas.
+- TIC Interfaces Hombre Máquina.
+- Ingeniería de Software.
+- Contenidos Digitales
+
 
 ## Personal Académico
 

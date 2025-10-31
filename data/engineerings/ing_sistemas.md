@@ -35,7 +35,6 @@ El mundo no puede operar sin las tecnologías de la información y la comunicaci
 
 El programa de **Ingeniería de Sistemas e Informática ** de la **Universidad Pontificia Bolivariana (UPB)** forma profesionales en:
 
-- Inteligencia artificial  
 - Programación de software  
 - Inteligencia de negocios  
 - Analítica de datos  
