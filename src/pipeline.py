@@ -12,7 +12,7 @@ from loader.ingest import load_upb_documents
 from processing.chunking import chunk_documents
 
 
-def prepare_documents_for_rag(chunk_size=1000, chunk_overlap=200, show_progress=True):
+def prepare_documents_for_rag(chunk_size=1000, chunk_overlap=200, show_progress=True, use_headers=True, add_context_prefix=True):
     """
     Complete data preparation pipeline.
     
@@ -20,15 +20,21 @@ def prepare_documents_for_rag(chunk_size=1000, chunk_overlap=200, show_progress=
         chunk_size: Maximum characters per chunk
         chunk_overlap: Overlap between chunks in characters
         show_progress: Show loading progress bar
+        use_headers: Use header-based chunking (default: True)
+        add_context_prefix: Add contextual prefix to prevent hallucinations (default: True)
     
     Returns:
         list: Chunked documents ready for embedding and retrieval
     """
-    # Step 1: Load documents
     documents = load_upb_documents(show_progress=show_progress)
     
-    # Step 2: Chunk documents
-    chunks = chunk_documents(documents, chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    chunks = chunk_documents(
+        documents, 
+        chunk_size=chunk_size, 
+        chunk_overlap=chunk_overlap, 
+        use_headers=use_headers,
+        add_context_prefix=add_context_prefix
+    )
     
     return chunks
 

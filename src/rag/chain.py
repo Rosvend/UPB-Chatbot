@@ -51,15 +51,22 @@ class UPBRAGChain:
             ("system", """Eres un asistente virtual de la Universidad Pontificia Bolivariana (UPB) especializado en orientación académica. 
 Tu rol es ayudar a estudiantes prospecto a explorar y comprender los programas de ingeniería ofrecidos por la UPB.
 
+REGLAS CRÍTICAS PARA PREVENIR CONFUSIÓN DE INFORMACIÓN:
+1. Cada fragmento de contexto tiene etiquetas [PROGRAMA:], [CODIGO:], [SECCION:] que identifican el programa específico
+2. NUNCA mezcles información entre programas diferentes
+3. Si preguntan sobre un programa específico (ej: Ingeniería de Sistemas), usa SOLO fragmentos con [PROGRAMA: Ingeniería de Sistemas e Informática]
+4. Si el plan de estudios/pensum está en el contexto de un programa, esa información es SOLO para ese programa
+5. Verifica siempre las etiquetas de contexto antes de afirmar que algo existe en un programa
+
 Características de tus respuestas:
 - Usa un tono amigable, cercano y profesional
 - Responde en español de manera clara y concisa
 - Basa tus respuestas ÚNICAMENTE en el contexto proporcionado
-- Si no encuentras información relevante en el contexto, indícalo honestamente
-- Menciona las fuentes de información cuando sea relevante (ej: "Según el programa de Ingeniería de Sistemas...")
+- Si no encuentras información relevante en el contexto, di "No tengo información sobre eso en este programa específico"
+- Menciona EXPLÍCITAMENTE el nombre del programa cuando respondas (ej: "En Ingeniería Industrial sí se ve Cálculo Vectorial, pero en Ingeniería de Sistemas no")
 - Si es apropiado, sugiere programas relacionados que puedan interesar al estudiante
 
-Contexto relevante:
+Contexto relevante (cada fragmento pertenece a UN programa específico):
 {context}"""),
             MessagesPlaceholder("chat_history"),
             ("human", "{question}")
@@ -78,34 +85,31 @@ Contexto relevante:
     def _retrieve_and_format(self, question: str) -> str:
         """
         Retrieve relevant documents and format them as context.
+        Each document is clearly separated and labeled to prevent confusion.
         
         Args:
             question: User question
             
         Returns:
-            Formatted context string
+            Formatted context string with clear boundaries
         """
         docs = self.retriever.retrieve(
             question, 
             method=self.retrieval_method, 
-            k=4
+            k=6
         )
         
-        # Store retrieved docs for source citations
         self.last_retrieved_docs = docs
         
-        # Format documents with metadata
         formatted_docs = []
         for i, doc in enumerate(docs, 1):
-            category = doc.metadata.get('category', 'general')
-            source = doc.metadata.get('source', 'N/A')
             content = doc.page_content.strip()
             
             formatted_docs.append(
-                f"[Documento {i} - {category}]\n{content}"
+                f"--- INICIO FRAGMENTO {i} ---\n{content}\n--- FIN FRAGMENTO {i} ---"
             )
         
-        return "\n\n---\n\n".join(formatted_docs)
+        return "\n\n".join(formatted_docs)
     
     def invoke(self, question: str, include_sources: bool = True) -> Dict:
         """
@@ -189,7 +193,7 @@ if __name__ == "__main__":
     print("=" * 70)
     
     # Question 1
-    question1 = "¿Qué carrera debo estudiar si me gusta la inteligencia artificial?"
+    question1 = "¿Se ve cálculo vectorial en la ingeniería de sistemas en la UPB?"
     print(f"\nUsuario: {question1}")
     print("-" * 70)
     
@@ -205,7 +209,7 @@ if __name__ == "__main__":
     
     # Question 2 (with context from previous question)
     print("\n" + "=" * 70)
-    question2 = "¿Qué requisitos necesito para inscribirme?"
+    question2 = "¿Se ve ecuaciones diferenciales en ingeniería en diseño y entretenimiento digital en la UPB?"
     print(f"Usuario: {question2}")
     print("-" * 70)
     
@@ -220,7 +224,7 @@ if __name__ == "__main__":
     
     # Question 3 (memory test)
     print("\n" + "=" * 70)
-    question3 = "¿Hay becas disponibles para ese programa?"
+    question3 = "¿Cuánto cuesta el semestre de esa carrera?"
     print(f"Usuario: {question3}")
     print("-" * 70)
     

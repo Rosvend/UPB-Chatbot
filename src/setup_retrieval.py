@@ -21,6 +21,8 @@ def setup_retrieval_system(
     use_existing: bool = True,
     chunk_size: int = 1000,
     chunk_overlap: int = 200,
+    use_headers: bool = True,
+    add_context_prefix: bool = True,
 ):
     """
     Set up complete retrieval system with embeddings and vector store.
@@ -30,6 +32,8 @@ def setup_retrieval_system(
         use_existing: If True and vectorstore exists, load it. Otherwise create new.
         chunk_size: Size of document chunks
         chunk_overlap: Overlap between chunks
+        use_headers: Use header-based chunking (default: True)
+        add_context_prefix: Add contextual prefix to prevent hallucinations (default: True)
         
     Returns:
         Tuple of (UPBRetriever, VectorStoreManager, chunks)
@@ -38,42 +42,44 @@ def setup_retrieval_system(
     print("UPB RAG - RETRIEVAL SYSTEM SETUP")
     print("=" * 70)
     
-    # Step 1: Load and chunk documents
     print("\n[1/4] Loading documents...")
     documents = load_upb_documents(show_progress=True)
-    print(f"✓ Loaded {len(documents)} documents")
+    print(f"Loaded {len(documents)} documents")
     
     print("\n[2/4] Chunking documents...")
-    chunks = chunk_documents(documents, chunk_size=chunk_size, chunk_overlap=chunk_overlap)
-    print(f"✓ Created {len(chunks)} chunks")
+    chunks = chunk_documents(
+        documents, 
+        chunk_size=chunk_size, 
+        chunk_overlap=chunk_overlap, 
+        use_headers=use_headers,
+        add_context_prefix=add_context_prefix
+    )
+    print(f"Created {len(chunks)} chunks")
     
-    # Step 2: Initialize embeddings
     print("\n[3/4] Initializing embeddings...")
     embeddings = get_embeddings(provider="azure")
-    print("✓ Embeddings ready")
+    print("Embeddings ready")
     
-    # Step 3: Create or load vector store
     print("\n[4/4] Setting up vector store...")
     vectorstore_manager = VectorStoreManager(embeddings)
     
     if use_existing and Path(vectorstore_path).exists():
         print(f"Loading existing vector store from {vectorstore_path}...")
         vectorstore_manager.load(vectorstore_path)
-        print("✓ Vector store loaded")
+        print("Vector store loaded")
     else:
         print("Creating new vector store...")
         vectorstore_manager.create_from_documents(chunks)
-        print("✓ Vector store created")
+        print("Vector store created")
         
         print(f"Saving to {vectorstore_path}...")
         vectorstore_manager.save(vectorstore_path)
-        print("✓ Vector store saved")
+        print("Vector store saved")
     
-    # Step 4: Initialize retriever with vector store
     retriever = UPBRetriever(chunks, vectorstore=vectorstore_manager.vectorstore)
     
     print("\n" + "=" * 70)
-    print("✅ RETRIEVAL SYSTEM READY")
+    print("RETRIEVAL SYSTEM READY")
     print("=" * 70)
     print(f"Documents: {len(documents)}")
     print(f"Chunks: {len(chunks)}")

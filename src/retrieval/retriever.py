@@ -140,7 +140,6 @@ if __name__ == "__main__":
     from pathlib import Path
     import sys
     
-    # Add src to path
     sys.path.insert(0, str(Path(__file__).parent.parent))
     
     from loader.ingest import load_upb_documents
@@ -148,14 +147,12 @@ if __name__ == "__main__":
     
     print("Loading and chunking documents...\n")
     documents = load_upb_documents()
-    chunks = chunk_documents(documents)
+    chunks = chunk_documents(documents, use_headers=True, add_context_prefix=True)
     
     print(f"Loaded {len(chunks)} chunks\n")
     
-    # Initialize retriever (without vectorstore for BM25 demo)
     retriever = UPBRetriever(chunks)
     
-    # Test BM25 retrieval
     print("=" * 70)
     print("TESTING BM25 RETRIEVAL (keyword-based)")
     print("=" * 70)
