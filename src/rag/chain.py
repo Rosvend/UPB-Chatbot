@@ -40,7 +40,7 @@ class UPBRAGChain:
         # Initialize LLM
         self.llm = AzureChatOpenAI(
             azure_deployment=os.getenv("AZURE_OPENAI_LLM_DEPLOYMENT", "gpt-4o-mini"),
-            openai_api_version="2024-02-01",
+            openai_api_version="2024-12-01-preview",
             azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
             api_key=os.getenv("AZURE_OPENAI_API_KEY"),
             temperature=0.7,
