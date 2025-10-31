@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from loader.ingest import load_upb_documents
 from processing.chunking import chunk_documents
 from embeddings.embeddings import get_embeddings
-from vectorstore.store import VectorStoreManager
+from store.store import VectorStoreManager
 from retrieval.retriever import UPBRetriever
 
 
@@ -146,6 +146,8 @@ if __name__ == "__main__":
     print("QUICK START EXAMPLE")
     print("=" * 70)
     print("""
+          
+          
 # To use the retrieval system in your code:
 
 from setup_retrieval import setup_retrieval_system

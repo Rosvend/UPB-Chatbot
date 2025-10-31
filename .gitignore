@@ -218,5 +218,7 @@ __marimo__/
 # Vector Store
 # FAISS index files should not be committed - they are large and environment-specific
 vectorstore/
+faiss_index/
 *.index
 *.pkl
+*.faiss
